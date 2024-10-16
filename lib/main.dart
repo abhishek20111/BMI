@@ -1,4 +1,6 @@
+import 'package:bmi/SecondPage.dart';
 import 'package:flutter/material.dart';
+import 'SecondPage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -140,11 +142,18 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: Text("Calculate"))
                 ,
                 SizedBox(height: 100,),
-                Text(result, style: TextStyle(fontSize: 20),)
+                Text(result, style: TextStyle(fontSize: 20),),
+                SizedBox(height: 100,),
+                ElevatedButton(onPressed: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (context){
+                    return SecondPage();
+                  },));
+                }, child: const Text("Next"))
               ],
             ),
           ),
         ),
+
       )
    );
   }
