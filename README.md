@@ -22,7 +22,8 @@ A simple **BMI Calculator** app built using **Flutter**. This application allows
 
 ## Screenshots
 
-![BMI Calculator Screenshot](path_to_screenshot.png)  <!-- Add an image here if available -->
+![Screenshot 2024-10-16 185756](https://github.com/user-attachments/assets/16e2d248-3b5e-444c-ae69-d9da13eda39e)
+
 
 ## Getting Started
 
